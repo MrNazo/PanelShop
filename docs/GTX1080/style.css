@@ -1,0 +1,71 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html, body{
+  display: block;
+  height: 100%;
+  min-width: 990px;
+}
+body{
+  position: relative;
+}
+a{
+transition: all 0.2s ease;
+}
+.hd{
+  width: auto;
+  height: 100px;
+  background-color: rgb(34, 32, 56);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.foot{
+  position: relative;
+  height: 150px;
+  box-shadow: inset 0 1px 6px 0 rgb(14, 12, 36);
+  border-top: 1px solid rgb(34, 32, 56);
+  background: rgb(34, 32, 56);
+}
+.mainbl{
+ box-sizing: border-box;
+ display: flex;
+ margin: 100px;
+ height: 1100px;
+ flex-wrap: wrap;
+ flex-direction: row;
+ overflow: hidden;
+}
+.but{
+  height: 60px;
+  width: 250px;
+  margin: 0px 20px;
+  text-align: center;
+  background-color: rgb(53, 50, 99);
+  text-decoration: none;
+  font-family: sans-serif;
+  line-height: 60px;
+  font-size: 35px;
+  color: rgb(132, 128, 196);
+}
+.but:hover{
+  background-color: rgb(73, 70, 129);
+}
+.but:active{
+  color: rgb(172, 168, 236);
+  background-color: rgb(113, 110, 169);
+}
+.tpic{
+width: 50%;
+height: 45%;
+float: left;
+padding-left: 15%;
+}
+.ttext{
+  float: right;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 25px;
+}
